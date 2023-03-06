@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[5624],{5624:function(a,n,e){a.exports=e.p+"static/media/Xavier lineup_v02.bdb0751802f159139ce9.jpg"}}]);

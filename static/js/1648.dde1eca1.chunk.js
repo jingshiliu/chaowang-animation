@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[1648],{1648:function(a,t,e){a.exports=e.p+"static/media/Forest Spitit Character Design.c519ddbd8eb8a3f8f94a.jpg"}}]);

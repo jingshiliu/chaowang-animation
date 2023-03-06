@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[1517],{1517:function(a,n,e){a.exports=e.p+"static/media/ancient temple Lineart.7b86844291552edd7ddc.jpg"}}]);

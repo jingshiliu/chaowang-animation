@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[3799],{3799:function(a,n,e){a.exports=e.p+"static/media/Character Designs.e7830a5a6e50ff0f2646.png"}}]);

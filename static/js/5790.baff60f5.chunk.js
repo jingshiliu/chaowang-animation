@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[5790],{5790:function(a,n,i){a.exports=i.p+"static/media/Location Designs.989d69b76f1afd6ab04a.jpeg"}}]);

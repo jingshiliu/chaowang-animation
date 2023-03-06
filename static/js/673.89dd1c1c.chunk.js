@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[673],{673:function(a,n,c){a.exports=c.p+"static/media/instagram.cb2c65c17411d202470e.svg"}}]);

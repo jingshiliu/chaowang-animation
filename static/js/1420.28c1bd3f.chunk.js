@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[1420],{1420:function(a,n,e){a.exports=e.p+"static/media/EFX Animation.e1595459e357dcc9afba.jpeg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[3194],{3194:function(a,n,e){a.exports=e.p+"static/media/IMG_6290.0480d39bbc30efe4b621.JPG"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[3625],{3625:function(a,n,c){a.exports=c.p+"static/media/The hallway.cfbff9a8acd64796f811.jpg"}}]);

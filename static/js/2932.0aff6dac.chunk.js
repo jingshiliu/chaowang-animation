@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[2932],{2932:function(a,n,t){a.exports=t.p+"static/media/TH_Mouth_Chart.93a65a50e0fc695fd826.JPG"}}]);

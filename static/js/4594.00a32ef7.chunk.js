@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[4594],{4594:function(a,e,n){a.exports=n.p+"static/media/TreasureHunter_Ex Sheet.85efbf01f4aa21a6dbba.jpg"}}]);

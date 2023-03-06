@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[1513],{1513:function(a,e,n){a.exports=n.p+"static/media/Xavier expression sheet.d55249f0aeaf2b8a61b0.jpg"}}]);

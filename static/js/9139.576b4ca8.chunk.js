@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[9139],{9139:function(a,e,n){a.exports=n.p+"static/media/The hallway Lineart.565ff4054e2b8a6c1eb0.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[277],{277:function(a,n,i){a.exports=i.p+"static/media/BG_LAYOUT_SCENE37_V2.2854d9842bafd9d9239a.png"}}]);

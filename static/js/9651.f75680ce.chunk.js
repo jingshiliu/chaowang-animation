@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[9651],{9651:function(a,e,n){a.exports=n.p+"static/media/Treasure Hunter Character Design.4a5c53383719b1d7a562.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[7962],{7962:function(a,n,e){a.exports=e.p+"static/media/BG_COLOR_SCENE24_v1.4b936735df3a5d04e742.png"}}]);

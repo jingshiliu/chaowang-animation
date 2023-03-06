@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[2132],{2132:function(a,n,e){a.exports=e.p+"static/media/Boy and the Fish.9ae29e26523b678c38b8.jpg"}}]);

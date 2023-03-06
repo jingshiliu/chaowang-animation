@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[8121],{8121:function(a,n,e){a.exports=e.p+"static/media/BG_Color31_V1.7d5bea344554ef7433f2.png"}}]);

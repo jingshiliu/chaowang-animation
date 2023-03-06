@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaowang_animation=self.webpackChunkchaowang_animation||[]).push([[2540],{2540:function(a,i,n){a.exports=n.p+"static/media/Logo-Light.03337214f2d275c145e5.ico"}}]);
