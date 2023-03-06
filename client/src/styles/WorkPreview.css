@@ -1,0 +1,28 @@
+.WorkPreview{
+    display: inline-block;
+    margin-bottom: 3em;
+    width: 20vw;
+    height: 20vw;
+}
+
+.WorkPreview img{
+    border-radius: 0.5em;
+    transition: all 0.5s ease-in-out;
+}
+
+.WorkPreview img:hover{
+    opacity: 0.7;
+    transform: scale(0.95);
+    transition-duration: 0.2s;
+}
+
+.WorkPreview h2{
+    margin: 0 0 1em;
+    color: var(--theme-color-white)
+}
+
+.WorkPreview img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}

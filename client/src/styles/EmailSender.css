@@ -1,0 +1,52 @@
+.EmailSender{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.EmailSender div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+}
+
+.EmailSender input, .EmailSender textarea{
+    width: 100%;
+}
+
+.EmailSender div, .EmailSender label{
+    margin: 0.6em 0;
+}
+
+.EmailSender div label{
+    width: 48%;
+}
+
+.EmailSender input, .EmailSender button, .EmailSender textarea{
+    color: var(--theme-color-black);
+}
+
+.EmailSender input, .EmailSender textarea{
+    padding: 0.5em;
+    border-radius: 0.2em;
+    border: none;
+    margin-top: 0.2em;
+}
+
+.EmailSender textarea{
+    height: 100px;
+}
+
+.EmailSender button{
+    width: fit-content;
+    padding: 0.5em 2em;
+    align-self: end;
+    margin-left: 1em;
+}
+
+.EmailSender div:last-of-type{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}

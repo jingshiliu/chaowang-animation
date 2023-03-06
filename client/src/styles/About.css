@@ -1,0 +1,39 @@
+.About{
+    display: flex;
+    font-family: 'helvetica neue', serif;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.About img{
+    width: 500px;
+    border-radius: 1em;
+    height: auto;
+    position: relative;
+    left: 5%;
+    z-index: -1;
+}
+
+.About div{
+    background-color: var(--theme-color-orange);
+    width: 350px;
+    height: fit-content;
+    line-height: 1.8;
+    padding: 2em 3.5em;
+    text-align: justify;
+    border-radius: 1em;
+    position: relative;
+    transform: translateY(5%);
+}
+
+.About h1{
+    text-align: center;
+    color: #f35b04;
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.About div p{
+    color: var(--theme-color-black);
+}

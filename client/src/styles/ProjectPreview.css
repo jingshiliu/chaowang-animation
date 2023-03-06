@@ -1,0 +1,21 @@
+.ProjectPreview{
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    position: relative;
+    z-index: 0.2;
+}
+
+.ProjectPreview img, .ProjectPreview video{
+    object-fit: inherit;
+    width: inherit;
+    height: inherit;
+}
+
+.ProjectPreview .transparent-layer{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #fff0;
+    top: 0;
+}

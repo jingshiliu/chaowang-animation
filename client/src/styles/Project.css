@@ -1,0 +1,78 @@
+.Project h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Project .gallery{
+    padding: 0 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    column-gap: 10px;
+}
+
+.Project .ProjectPreview{
+    width: 20vw;
+    height: 20vw;
+    margin-bottom: 10px;
+}
+
+.Project .ProjectPreview img,
+.Project .ProjectPreview video,
+.Project .ProjectPreview .VideoPlayer{
+    border-radius: 0.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.Project .ProjectPreview img:hover,
+.Project .ProjectPreview video:hover,
+.Project .ProjectPreview .VideoPlayer:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(0.95);
+    transition-duration: 0.2s;
+}
+
+.ProjectPreviewPopUp{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectPreviewPopUp .black-background{
+    position: absolute;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    z-index: 0.5;
+    background-color: #0008;
+}
+
+.ProjectPreviewPopUp video, .ProjectPreviewPopUp img, .ProjectPreviewPopUp .VideoPlayer{
+    position: relative;
+    top: 10vh;
+    object-fit: contain;
+    max-width: 70vw;
+    max-height: 70vh;
+    z-index: 1;
+}
+
+.Project-Footer{
+    margin: 10em;
+}
+
+.Project-Footer h1{
+    margin: 2em 0;
+    font-size: 30px;
+}
+
+.Project-Footer .ProjectTypeGallery{
+    grid-template-columns: repeat(4, 15vw);
+}
+
+.Project-Footer .ProjectTypeGallery .WorkPreview{
+    width: 15vw;
+    height: 15vw;
+}

@@ -1,0 +1,24 @@
+.Home{
+    padding: 0 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .welcome{
+    font-size: 70px;
+    font-family: monoton, serif;
+    font-weight: 700;
+    text-shadow: -5px 5px 5px var(--theme-color-red);
+}
+
+.Home .quote{
+    margin: 1.5em 0 3em;
+    color: var(--theme-color-yellow);
+    width: 60vw;
+    line-height: 1.5;
+    font-size: larger;
+}
+

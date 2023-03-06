@@ -1,0 +1,65 @@
+.Contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.info ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info ul li{
+    width: fit-content;
+    border-radius: 0.4em;
+}
+
+.info li:nth-child(1), .Contact li:nth-child(2){
+    padding: 1em 2em;
+
+}
+
+.info li:nth-child(1):hover, .Contact li:nth-child(2):hover{
+    background-color: #fff4;
+    cursor: pointer;
+}
+
+.instagram-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-icon img{
+    height: 30px;
+}
+
+.contact-logo{
+    height: 600px;
+    transform: translateY(-15%);
+    z-index: -1;
+    position: relative;
+}
+
+
+
+
+
+
+
+

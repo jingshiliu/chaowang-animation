@@ -1,0 +1,11 @@
+.ProjectTypeGallery{
+    margin: 0 auto;
+    width: fit-content;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 20vw);
+}
+
+.ProjectTypeGallery .WorkPreview{
+    margin-bottom: 7em;
+}
