@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={'https://jingshiliu.github.io/chaowang-animation'}>
             <Routes>
                 <Route path={'/'} element={<Layout />}>
                     <Route index element={<Home/>}/>
