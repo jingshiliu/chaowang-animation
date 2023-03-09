@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
     return (
-        <BrowserRouter basename={'https://jingshiliu.github.io/chaowang-animation'}>
+        <BrowserRouter basename={'https://chaowang-animation.herokuapp.com/'}>
             <Routes>
                 <Route path={'/'} element={<Layout />}>
                     <Route index element={<Home/>}/>
