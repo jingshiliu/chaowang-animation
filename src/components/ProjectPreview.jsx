@@ -4,17 +4,20 @@ import {isVideo} from "../utils";
 import VideoPlayer from "./VideoPlayer";
 
 function ProjectPreview({asset, setPreviewPopUp}) {
+    console.log(asset)
     return (
         <div className={'ProjectPreview'} onClick={() => setPreviewPopUp(asset)}>
             {
                 isVideo(asset)
                     ?
-                    <VideoPlayer
-                        autoplay={false}
-                        videoID={asset.split('.')[1]}
-                        control={false}
-                        onClick={setPreviewPopUp}
+                    (() => {
+                        let assetInListForm = asset.split('.')
+                        return <VideoPlayer
+                            autoplay={false}
+                            videoID={assetInListForm[assetInListForm.length - 2]}
+                            control={false}
                         />
+                    })()
                     :
                     <img src={asset} alt=""/>
             }
