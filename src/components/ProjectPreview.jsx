@@ -4,7 +4,6 @@ import {isVideo} from "../utils";
 import VideoPlayer from "./VideoPlayer";
 
 function ProjectPreview({asset, setPreviewPopUp}) {
-    console.log(asset)
     return (
         <div className={'ProjectPreview'} onClick={() => setPreviewPopUp(asset)}>
             {
