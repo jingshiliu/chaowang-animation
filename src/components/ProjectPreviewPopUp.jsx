@@ -10,7 +10,15 @@ function ProjectPreviewPopUp({asset, setPreviewPopUp}) {
 
             {
                 isVideo(asset) ?
-                    <VideoPlayer videoID={asset.split('.')[1]} height={800} width={1000} />
+                    (() => {
+                        let assetInListForm = asset.split('.')
+                        return <VideoPlayer
+                            autoplay={false}
+                            videoID={assetInListForm[assetInListForm.length - 2]}
+                            height={800}
+                            width={1000}
+                        />
+                    })()
                     :
                     <img src={asset} alt={""}/>
             }
