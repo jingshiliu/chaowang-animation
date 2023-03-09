@@ -1,7 +1,6 @@
 import React from 'react';
 
 function VideoPlayer({autoplay, videoID}) {
-    console.log('VideoPlayer', videoID)
     return (
         <>
             <iframe className={'VideoPlayer'}

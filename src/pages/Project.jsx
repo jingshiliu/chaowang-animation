@@ -20,8 +20,6 @@ function Project() {
             const assetNames = await fetchAsset(`/Projects/indexes/${category}.json`)
             const assetList = []
             for (let assetName of assetNames) {
-                console.log('fetch ' + assetName)
-
                 let asset = isVideo(assetName) ? assetName: (await fetchAsset(`/Projects/${assetName}`))
                 assetList.push(asset)
 
