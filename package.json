@@ -2,13 +2,7 @@
   "name": "chaowang-animation",
   "version": "0.1.0",
   "private": false,
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x",
-    "heroku": {
-      "stack": "heroku-20"
-    }
-  },
+  "homepage": "https://chaowang-animation.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
