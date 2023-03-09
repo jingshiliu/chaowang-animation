@@ -19,3 +19,7 @@
     background-color: #fff0;
     top: 0;
 }
+
+.ProjectPreview .transparent-layer:hover{
+    cursor: pointer;
+}
