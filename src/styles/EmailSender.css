@@ -50,3 +50,17 @@
     justify-content: end;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .EmailSender{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .EmailSender{
+        margin: 0 auto;
+        padding: 10%;
+        width: 77%;
+    }
+}

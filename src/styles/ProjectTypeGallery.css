@@ -2,10 +2,22 @@
     margin: 0 auto;
     width: fit-content;
     display: grid;
-    column-gap: 10px;
+    column-gap: 5%;
     grid-template-columns: repeat(3, 20vw);
 }
 
 .ProjectTypeGallery .WorkPreview{
     margin-bottom: 7em;
+}
+
+@media (max-width: 425px){
+    .ProjectTypeGallery{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .ProjectTypeGallery .WorkPreview{
+        align-self: center;
+        width: 15em;
+        height: 15em;
+    }
 }

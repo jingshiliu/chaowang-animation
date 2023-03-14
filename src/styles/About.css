@@ -37,3 +37,13 @@
 .About div p{
     color: var(--theme-color-black);
 }
+
+@media (max-width: 768px) {
+    .About img{
+        display: none;
+    }
+
+    .About{
+        padding: 0 10%;
+    }
+}
