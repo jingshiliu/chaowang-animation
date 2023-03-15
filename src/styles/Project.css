@@ -1,3 +1,7 @@
+.Project{
+    overflow-x: hidden;
+}
+
 .Project h1{
     text-align: center;
     margin-bottom: 10px;
@@ -85,29 +89,6 @@ h2{
 
 
 /*----------------- media query for .gallery -----------*/
-
-@media (max-width: 425px){
-    .Project .gallery{
-        grid-template-columns: repeat(1, 100%);
-    }
-
-    .Project .gallery .ProjectPreview{
-        align-self: center;
-        width: 16.5em;
-        height: 16.5em;
-    }
-
-    .Project-Footer .ProjectTypeGallery{
-        grid-template-columns: repeat(1, 100%);
-    }
-
-    .Project-Footer .ProjectTypeGallery .WorkPreview{
-        align-self: center;
-        width: 16.5em;
-        height: 16.5em;
-    }
-}
-
 @media (max-width: 768px){
     .Project .gallery{
         grid-template-columns: repeat(2, 45%);
@@ -135,6 +116,31 @@ h2{
         font-size: 20px;
     }
 }
+
+
+@media (max-width: 426px){
+    .Project .gallery{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .Project .gallery .ProjectPreview{
+        align-self: center;
+        width: 16.5em;
+        height: 16.5em;
+    }
+
+    .Project-Footer .ProjectTypeGallery{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .Project-Footer .ProjectTypeGallery .WorkPreview{
+        align-self: center;
+        width: 16.5em;
+        height: 16.5em;
+    }
+}
+
+
 
 
 /* ------------------------------------------------------- */
