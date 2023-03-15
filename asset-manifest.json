@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chaowang-animation/static/css/main.3ee573de.css",
-    "main.js": "/chaowang-animation/static/js/main.090b49cc.js",
+    "main.css": "/chaowang-animation/static/css/main.f2583144.css",
+    "main.js": "/chaowang-animation/static/js/main.d99cde4d.js",
     "static/js/3065.787d4804.chunk.js": "/chaowang-animation/static/js/3065.787d4804.chunk.js",
     "static/js/2132.7316ef6f.chunk.js": "/chaowang-animation/static/js/2132.7316ef6f.chunk.js",
     "static/js/3799.7f4acf57.chunk.js": "/chaowang-animation/static/js/3799.7f4acf57.chunk.js",
@@ -49,11 +49,11 @@
     "static/js/5624.3fdc70a5.chunk.js": "/chaowang-animation/static/js/5624.3fdc70a5.chunk.js",
     "static/js/1517.c02ce63f.chunk.js": "/chaowang-animation/static/js/1517.c02ce63f.chunk.js",
     "static/js/4018.5c08464b.chunk.js": "/chaowang-animation/static/js/4018.5c08464b.chunk.js",
-    "static/js/157.12dfd160.chunk.js": "/chaowang-animation/static/js/157.12dfd160.chunk.js",
+    "static/js/157.c8eb66cc.chunk.js": "/chaowang-animation/static/js/157.c8eb66cc.chunk.js",
     "static/js/2366.9002ea23.chunk.js": "/chaowang-animation/static/js/2366.9002ea23.chunk.js",
-    "static/js/8010.0d334306.chunk.js": "/chaowang-animation/static/js/8010.0d334306.chunk.js",
+    "static/js/8010.82657704.chunk.js": "/chaowang-animation/static/js/8010.82657704.chunk.js",
     "static/js/1963.17df0791.chunk.js": "/chaowang-animation/static/js/1963.17df0791.chunk.js",
-    "static/js/4740.8ab88979.chunk.js": "/chaowang-animation/static/js/4740.8ab88979.chunk.js",
+    "static/js/4740.ef74e771.chunk.js": "/chaowang-animation/static/js/4740.ef74e771.chunk.js",
     "static/js/3333.e5b5b249.chunk.js": "/chaowang-animation/static/js/3333.e5b5b249.chunk.js",
     "static/js/1058.984f1508.chunk.js": "/chaowang-animation/static/js/1058.984f1508.chunk.js",
     "static/js/2540.e37859c5.chunk.js": "/chaowang-animation/static/js/2540.e37859c5.chunk.js",
@@ -110,11 +110,11 @@
     "static/media/Logo-Light.ico": "/chaowang-animation/static/media/Logo-Light.03337214f2d275c145e5.ico",
     "static/media/instagram.svg": "/chaowang-animation/static/media/instagram.cb2c65c17411d202470e311582dbe2de.svg",
     "index.html": "/chaowang-animation/index.html",
-    "main.3ee573de.css.map": "/chaowang-animation/static/css/main.3ee573de.css.map",
-    "main.090b49cc.js.map": "/chaowang-animation/static/js/main.090b49cc.js.map"
+    "main.f2583144.css.map": "/chaowang-animation/static/css/main.f2583144.css.map",
+    "main.d99cde4d.js.map": "/chaowang-animation/static/js/main.d99cde4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ee573de.css",
-    "static/js/main.090b49cc.js"
+    "static/css/main.f2583144.css",
+    "static/js/main.d99cde4d.js"
   ]
 }
