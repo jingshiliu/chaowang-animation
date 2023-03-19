@@ -13,7 +13,6 @@ function Project() {
     const [projects, setProjects] = useState([]);
     const [previewPopUp, setPreviewPopUp] = useState('')
 
-
     useEffect(() => {
         async function fetchData() {
             window.scrollTo(0, 0)

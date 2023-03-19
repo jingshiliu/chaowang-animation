@@ -4,6 +4,7 @@ import '../styles/Header.css'
 import logo from '../assets/icons/Logo Light.PNG'
 
 function Header() {
+    console.log('Header')
     return (
         <nav className={'Header'}>
             <div className={'author-wrapper'}>

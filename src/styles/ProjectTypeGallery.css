@@ -4,6 +4,7 @@
     display: grid;
     column-gap: 5%;
     grid-template-columns: repeat(3, 20vw);
+    transform: translateX(-3vw);
 }
 
 .ProjectTypeGallery .WorkPreview{

@@ -1,5 +1,6 @@
 .Project{
     overflow-x: hidden;
+    position: relative;
 }
 
 .Project h1{
@@ -11,28 +12,29 @@
     padding: 0 20%;
     display: grid;
     grid-template-columns: repeat(3, 20vw);
-    column-gap: 5%;
+    column-gap: 3%;
+    transform: translateX(-2vw);
 }
 
-.Project .ProjectPreview{
+.Project .gallery .ProjectPreview{
     width: 20vw;
     height: 20vw;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 h2{
     text-align: center;
 }
 
-.Project .ProjectPreview img,
-.Project .ProjectPreview video,
+.Project .ProjectPreview .project-preview-thumbnail,
 .Project .ProjectPreview .VideoPlayer{
+    border-width: 0;
     border-radius: 0.5em;
     transition: all 0.2s ease-in-out;
 }
 
-.Project .ProjectPreview img:hover,
-.Project .ProjectPreview video:hover,
+.Project .ProjectPreview .project-preview-thumbnail:hover,
 .Project .ProjectPreview .VideoPlayer:hover{
     cursor: pointer;
     opacity: 0.7;
@@ -40,31 +42,8 @@ h2{
     transition-duration: 0.2s;
 }
 
-.ProjectPreviewPopUp{
-    top: 0;
-    position: fixed;
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    justify-content: center;
-}
-
-.ProjectPreviewPopUp .black-background{
-    position: absolute;
-    top: 0;
-    width: inherit;
-    height: 2000px;
-    z-index: 0.5;
-    background-color: #0008;
-}
-
-.ProjectPreviewPopUp video, .ProjectPreviewPopUp img, .ProjectPreviewPopUp .VideoPlayer{
-    position: relative;
-    top: 10vh;
+.Project .ProjectPreview .ProjectPreviewPopUp{
     object-fit: contain;
-    max-width: 70vw;
-    max-height: 70vh;
-    z-index: 1;
 }
 
 .Project-Footer{
@@ -90,26 +69,18 @@ h2{
 
 /*----------------- media query for .gallery -----------*/
 @media (max-width: 768px){
-    .Project .gallery{
-        grid-template-columns: repeat(2, 45%);
-
-    }
-
-    .Project .gallery .ProjectPreview{
-        align-self: center;
-        width: 12em;
-        height: 12em;
-    }
-
+    .Project .gallery,
     .Project-Footer .ProjectTypeGallery{
-        margin: 0;
         grid-template-columns: repeat(2, 45%);
+        transform: none;
+        column-gap: 7%;
     }
 
+    .Project .gallery .ProjectPreview,
     .Project-Footer .ProjectTypeGallery .WorkPreview{
         align-self: center;
-        width: 12em;
-        height: 12em;
+        width: 28vw;
+        height: 28vw;
     }
 
     .Project-Footer .ProjectTypeGallery .WorkPreview h2{
@@ -119,11 +90,14 @@ h2{
 
 
 @media (max-width: 426px){
-    .Project .gallery{
+    .Project .gallery,
+    .Project-Footer .ProjectTypeGallery{
         grid-template-columns: repeat(1, 100%);
+        transform: none;
     }
 
-    .Project .gallery .ProjectPreview{
+    .Project .gallery .ProjectPreview,
+    .Project-Footer .ProjectTypeGallery .WorkPreview{
         align-self: center;
         width: 16.5em;
         height: 16.5em;

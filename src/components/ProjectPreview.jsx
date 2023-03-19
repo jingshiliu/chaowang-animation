@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useState, memo} from 'react';
+import {AiFillVideoCamera, AiFillPlayCircle} from "react-icons/ai";
+import {FcVideoCall} from "react-icons/fc";
+import styled from 'styled-components';
 import '../styles/ProjectPreview.css'
 import {isVideo} from "../utils";
-import VideoPlayer from "./VideoPlayer";
+
 
 function ProjectPreview({asset, setPreviewPopUp}) {
+
     return (
         <div className={'ProjectPreview'} onClick={() => setPreviewPopUp(asset)}>
             {
@@ -11,18 +15,25 @@ function ProjectPreview({asset, setPreviewPopUp}) {
                     ?
                     (() => {
                         let assetInListForm = asset.split('.')
-                        return <VideoPlayer
-                            autoplay={false}
-                            videoID={assetInListForm[assetInListForm.length - 2]}
-                            control={false}
-                        />
+                        const StyledPlayIcon = styled(AiFillPlayCircle)`color: red; font-size: 80px`;
+                        return <>
+                            <img className={'project-preview-thumbnail'}
+                                 src={`https://img.youtube.com/vi/${assetInListForm[assetInListForm.length - 2]}/maxresdefault.jpg`}
+                                 alt=""/>
+                            <div className="video-play-icon-wrapper">
+                                {/*<AiFillPlayCircle className={'video-play-icon'} />*/}
+                                <StyledPlayIcon />
+                            </div>
+                        </>
                     })()
                     :
-                    <img src={asset} alt=""/>
+                    <img className={'project-preview-thumbnail'} src={asset} alt=""/>
             }
-            <div className={'transparent-layer'} onClick={() => setPreviewPopUp(asset)}></div>
         </div>
     );
 }
 
-export default ProjectPreview;
+export default memo(ProjectPreview, (prevProps, nextProps) => {
+    console.log(prevProps.asset === nextProps.asset, prevProps.asset, nextProps.asset)
+    return prevProps.asset === nextProps.asset;
+});

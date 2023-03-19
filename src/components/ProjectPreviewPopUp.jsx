@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/ProjectPreviewPopUp.css'
 
 import {isVideo} from "../utils";
 import VideoPlayer from "./VideoPlayer";
@@ -7,7 +8,6 @@ function ProjectPreviewPopUp({asset, setPreviewPopUp}) {
     return (
         <div className={'ProjectPreviewPopUp'}>
             <div className={'black-background'} onClick={() => setPreviewPopUp('')}></div>
-
             {
                 isVideo(asset) ?
                     (() => {
