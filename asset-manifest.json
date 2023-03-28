@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7a9bba68.css",
-    "main.js": "/static/js/main.e492c45d.js",
+    "main.js": "/static/js/main.1bd69842.js",
     "static/js/3065.787d4804.chunk.js": "/static/js/3065.787d4804.chunk.js",
     "static/js/2132.7316ef6f.chunk.js": "/static/js/2132.7316ef6f.chunk.js",
     "static/js/3799.7f4acf57.chunk.js": "/static/js/3799.7f4acf57.chunk.js",
@@ -49,7 +49,7 @@
     "static/js/5624.3fdc70a5.chunk.js": "/static/js/5624.3fdc70a5.chunk.js",
     "static/js/1517.c02ce63f.chunk.js": "/static/js/1517.c02ce63f.chunk.js",
     "static/js/4018.5c08464b.chunk.js": "/static/js/4018.5c08464b.chunk.js",
-    "static/js/157.c8eb66cc.chunk.js": "/static/js/157.c8eb66cc.chunk.js",
+    "static/js/157.7c79f680.chunk.js": "/static/js/157.7c79f680.chunk.js",
     "static/js/2366.9002ea23.chunk.js": "/static/js/2366.9002ea23.chunk.js",
     "static/js/8010.82657704.chunk.js": "/static/js/8010.82657704.chunk.js",
     "static/js/1963.17df0791.chunk.js": "/static/js/1963.17df0791.chunk.js",
@@ -111,10 +111,10 @@
     "static/media/instagram.svg": "/static/media/instagram.cb2c65c17411d202470e311582dbe2de.svg",
     "index.html": "/index.html",
     "main.7a9bba68.css.map": "/static/css/main.7a9bba68.css.map",
-    "main.e492c45d.js.map": "/static/js/main.e492c45d.js.map"
+    "main.1bd69842.js.map": "/static/js/main.1bd69842.js.map"
   },
   "entrypoints": [
     "static/css/main.7a9bba68.css",
-    "static/js/main.e492c45d.js"
+    "static/js/main.1bd69842.js"
   ]
 }
